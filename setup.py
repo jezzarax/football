@@ -56,7 +56,7 @@ setup(
         'opencv-python',
         'scipy',
         'gym',
-        'baselines>=0.1.6',
+        'baselines @ git+git://github.com/openai/baselines.git@master#egg=baselines',
     ],
     extras_require={
         'tf_cpu': ['tensorflow<2.0'],
